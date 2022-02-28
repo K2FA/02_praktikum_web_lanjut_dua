@@ -13,11 +13,7 @@ class ArticlesController extends Controller
      */
     public function articles($id)
     {
-        if($id == 1){
-            echo "Ini merupakan halaman artikel dengan id 1";
-        }else if($id == 2){
-            echo "Ini merupakan halaman artikel dengan id 2";
-        }
+        echo "Ini merupakan halaman artikel dengan id ".$id;
     }
 
     /**
